@@ -1,0 +1,128 @@
+.tabbody{
+  width: 100%;
+  height: 99px;
+  /* height: 70px; */
+  background-color: #2d4250;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.left{
+/* flex: 7; */
+display: flex;
+flex-direction: row;
+margin-left: 20px;
+margin-right: 40px;
+align-items: center;
+}
+.buttons{
+border: 1px solid rgb(59, 175, 214);
+padding: 0px,10px,0,10px;
+border-radius: 10px;
+width: 480px;
+height: 30px;
+display: flex;
+justify-content: center;
+}
+.buttons button{
+background-color: transparent;
+border: none;
+color: white;
+width:  150px;
+margin-left: 0;
+cursor: pointer;
+border-right: 1px solid rgb(59, 175, 214);
+
+}
+.buttons button:hover{
+background-color: rgb(59, 175, 214);
+object-fit: cover;
+}
+#but{
+border: none;
+width: 180px;
+cursor: pointer;
+}
+
+
+.right{
+  flex: 5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  width: 300px;
+}
+.button1{
+background-color: transparent;
+width: 150px;
+margin-right: 10px;
+border: 1px solid rgb(32, 177, 226);
+padding: 5px;
+border-radius: 5px;
+text-align: center;
+cursor: pointer;
+color: white;
+}
+.button1:hover{
+background-color: rgb(59, 175, 214);
+object-fit: cover;
+}
+
+.edit{
+/* background-color: transparent;
+width: 150px;
+margin-right: 10px;
+cursor: pointer;
+padding: 5px;
+border-radius: 5px;
+text-align: center;
+color: white; */
+background-color: transparent;
+width: 150px;
+margin-right: 10px;
+
+padding: 5px;
+border-radius: 5px;
+text-align: center;
+cursor: pointer;
+color: white;
+}
+.edit:hover{
+background-color: rgb(59, 175, 214);
+object-fit: cover;
+}
+
+.reload{
+width: 45px;
+height: 24px;
+cursor: pointer;
+background-color: transparent;
+border: 1px solid rgb(59, 175, 214);
+margin-left: 10px;
+border-radius: 5px;
+padding: 3px;
+margin-left: 10px;
+}
+.icon{
+color: rgb(8, 151, 198);
+width: 10px;
+margin-left: 10px;
+}
+.input{
+  padding: 10px;
+  border-radius:10px ;
+  margin-left: 7px;
+}
+.text{
+margin-bottom: 5px;
+}
+.label[data-shrink=false]+.MuiInputBase-formControl .css-10botns-MuiInputBase-input-MuiFilledInput-input {
+padding: 14px;
+height: 20px;
+}
+.css-10i04qz-MuiInputBase-root-MuiFilledInput-root {
+height: 45px;
+}
+
+

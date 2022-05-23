@@ -1,0 +1,16 @@
+#footer {
+    height: 55px;
+    margin:0px;
+    font-size: small;
+    background-color: #283d4a;
+    padding-left: 500px;
+    padding-top: 10px;
+  }
+
+  .link{
+      font-size: large;
+  }
+  .copy{
+      font-size: large;
+      color: white;
+  }
